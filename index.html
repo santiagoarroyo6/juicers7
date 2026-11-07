@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://juicers7.com.au/">
+<meta property="og:url" content="https://juicers7.com.au/">
+<meta property="og:image" content="https://juicers7.com.au/img/hero-bike.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Ccircle cx='28' cy='28' r='28' fill='%235FC24A'/%3E%3Cpolygon points='31,12 17,31 26,31 24,44 39,24 29,24' fill='%230D1B33'/%3E%3C/svg%3E">
+<title>Juicers Logistics</title>
+<meta name="description" content="Juicers Logistics services Lime e-bikes across Sydney. We're hiring riders with a van, bicycle or motorbike. Paid to your ABN, hi-vis safety gear supplied, training online and in person in Ultimo.">
+<meta property="og:title" content="Juicers Logistics: ride with us in Sydney">
+<meta property="og:description" content="Battery swaps, servicing and moving Lime e-bikes across Sydney. Van, bicycle or motorbike. Paid to your ABN.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "url": "https://juicers7.com.au/",
+      "@id": "#org",
+      "name": "Juicers Logistics",
+      "legalName": "7 Everything or Nothing Pty Ltd",
+      "taxID": "ABN 23 691 134 826",
+      "description": "Field services for Lime shared e-bikes in Sydney: battery swaps, servicing, tidying and moving bikes.",
+      "areaServed": "Sydney NSW"
+    },
+    {
+      "@type": "JobPosting",
+      "title": "E-bike field rider (battery swaps and servicing)",
+      "description": "<p>Juicers Logistics services Lime e-bikes across Sydney. Riders swap batteries, tighten brakes, tidy bike spots and move bikes to where people need them. Work with your own van, bicycle or motorbike, on flexible hours, seven days a week.</p><p>You work as an independent contractor and are paid to your ABN. We supply hi-vis safety gear. Training is an online course in English or Spanish plus one in-person session in Ultimo. Students are welcome with a minimum of 20 hours a week.</p><p>Requirements: Australian work rights, an ABN (or apply for one while you train), a smartphone with data, 18+, living in Sydney. A valid licence is needed for van or motorbike work.</p>",
+      "datePosted": "2026-11-06",
+      "validThrough": "2027-02-28",
+      "employmentType": ["CONTRACTOR", "PART_TIME", "FULL_TIME"],
+      "hiringOrganization": { "@id": "#org" },
+      "directApply": true,
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Unit 328/310 Wattle St",
+          "addressLocality": "Ultimo",
+          "addressRegion": "NSW",
+          "postalCode": "2007",
+          "addressCountry": "AU"
+        }
+      },
+      "applicantLocationRequirements": { "@type": "Country", "name": "Australia" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Do I need experience?", "acceptedAnswer": { "@type": "Answer", "text": "No. You learn every task in our online course, then practise them with us in person before your first shift." } },
+        { "@type": "Question", "name": "How do I get paid?", "acceptedAnswer": { "@type": "Answer", "text": "You work as an independent contractor and we pay you to your ABN for the tasks you complete." } },
+        { "@type": "Question", "name": "I don't have an ABN. Can I still apply?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Applying for an ABN is free on the Australian Business Register (abr.gov.au). Start it while you do the course so it is ready by your first shift." } },
+        { "@type": "Question", "name": "Can students apply?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Students need to commit to at least 20 hours a week." } },
+        { "@type": "Question", "name": "What vehicle do I need?", "acceptedAnswer": { "@type": "Answer", "text": "Your own van, bicycle or motorbike. Tidy and Service work with all three. Swap needs a bicycle or a van. Retrieve, Move and Deploy need a van." } },
+        { "@type": "Question", "name": "Where is the in-person session?", "acceptedAnswer": { "@type": "Answer", "text": "At Lucky Bikes, Unit 328/310 Wattle St, Ultimo NSW 2007, on Mondays and Tuesdays at 11:00 am." } }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* Layout: navy hero with a hi-vis reflective band as the recurring motif; light paper sections; tasks keep the real Supply chip colours. */
+:root{
+  --navy:#0D1B33;          /* Juicers brand navy: hero, footer, strong text */
+  --navy-2:#1B2A45;
+  --green:#5FC24A;         /* Juicers brand green: primary action */
+  --green-ink:#2E7A22;     /* green readable as text on light ground */
+  --hivis:#D4E600;         /* hi-vis vest yellow: the reflective-band motif only */
+  --tape:#C9CED6;          /* reflective tape grey */
+  --bg:#F3F5F7;
+  --surface:#FFFFFF;
+  --fg:#0D1B33;
+  --fg-2:#4E5A70;
+  --line:#DCE1E8;
+  --on-navy:#FFFFFF;
+  --on-navy-2:#B8C2D4;
+  --chip-swap:#2F7EF7;    --chip-swap-bg:#E6F0FE;
+  --chip-retrieve:#E0574A;--chip-retrieve-bg:#FDEDEB;
+  --chip-move:#1FAE54;    --chip-move-bg:#E7F8EE;
+  --chip-deploy:#C97E06;  --chip-deploy-bg:#FEF3E0;
+  --chip-tidy:#D0156F;    --chip-tidy-bg:#FDE8F2;
+  --chip-service:#6A5AE8; --chip-service-bg:#EFEDFE;
+  --display:"Sora","Inter",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A1426; --surface:#122039; --fg:#EEF2F8; --fg-2:#A9B4C8; --line:#24344F;
+    --green-ink:#7BD866;
+    --chip-swap-bg:#16294A; --chip-retrieve-bg:#3A1E21; --chip-move-bg:#14321F;
+    --chip-deploy-bg:#3A2A10; --chip-tidy-bg:#3A1529; --chip-service-bg:#231F48;
+    --chip-swap:#7AAEFF; --chip-retrieve:#FF8F84; --chip-move:#5FD889;
+    --chip-deploy:#F5B649; --chip-tidy:#FF6FB0; --chip-service:#A79CFF;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A1426; --surface:#122039; --fg:#EEF2F8; --fg-2:#A9B4C8; --line:#24344F;
+  --green-ink:#7BD866;
+  --chip-swap-bg:#16294A; --chip-retrieve-bg:#3A1E21; --chip-move-bg:#14321F;
+  --chip-deploy-bg:#3A2A10; --chip-tidy-bg:#3A1529; --chip-service-bg:#231F48;
+  --chip-swap:#7AAEFF; --chip-retrieve:#FF8F84; --chip-move:#5FD889;
+  --chip-deploy:#F5B649; --chip-tidy:#FF6FB0; --chip-service:#A79CFF;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance;line-height:1.15}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:6px}
+
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+@media (min-width:700px){.wrap{padding-left:max(28px, env(safe-area-inset-left, 0px));padding-right:max(28px, env(safe-area-inset-right, 0px))}}
+
+/* reflective band: hi-vis yellow with two tape stripes, like the vest */
+.band{height:22px;background:
+  linear-gradient(to bottom, var(--hivis) 0 5px, var(--tape) 5px 9px, var(--hivis) 9px 13px, var(--tape) 13px 17px, var(--hivis) 17px 22px)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 16px/1 var(--body);padding:15px 22px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s ease, background .15s ease}
+.btn:hover{transform:translateY(-1px)}
+@media (prefers-reduced-motion: reduce){.btn{transition:none}.btn:hover{transform:none}}
+.btn-primary{background:var(--green);color:var(--navy)}
+.btn-primary:hover{background:#6FD45A}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:var(--on-navy)}
+.btn-ghost:hover{border-color:var(--on-navy)}
+
+/* header + hero */
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:20px}
+.lockup{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--on-navy)}
+.lockup svg{width:38px;height:38px;flex:none}
+.lockup b{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.01em;line-height:1}
+.lockup small{display:block;font:600 11px/1 var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--hivis);margin-top:4px}
+.navlinks{display:flex;align-items:center;gap:26px;font-size:15px}
+.navlinks a{text-decoration:none;color:var(--on-navy-2)}
+.navlinks a:hover{color:var(--on-navy)}
+.navlinks .btn{padding:11px 18px;font-size:15px}
+@media (max-width:860px){.navlinks a:not(.btn){display:none}}
+
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:48px;align-items:center;padding-block:40px 64px}
+.hero-grid > div{min-width:0}
+.kicker{display:inline-flex;align-items:center;gap:10px;font:600 13px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--hivis);margin-bottom:20px}
+.kicker i{width:9px;height:9px;border-radius:50%;background:var(--hivis);box-shadow:0 0 0 4px rgba(212,230,0,.18)}
+.hero h1{font-size:clamp(36px,5.6vw,60px);font-weight:800;line-height:1.04}
+.hero h1 em{font-style:normal;color:var(--green)}
+.hero .lede{margin-top:20px;font-size:clamp(17px,2vw,19.5px);color:var(--on-navy-2);max-width:54ch}
+.hero .lede strong{color:var(--on-navy);font-weight:600}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0;padding:0;list-style:none}
+.facts li{display:flex;align-items:center;gap:8px;font-size:14.5px;color:var(--on-navy);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);padding:8px 13px;border-radius:999px}
+.facts svg{width:17px;height:17px;flex:none;color:var(--green)}
+
+.hero-photo{position:relative;min-width:0}
+.hero-photo img{display:block;width:100%;aspect-ratio:1348/1148;object-fit:cover;border-radius:22px}
+.photo-tag{position:absolute;left:16px;bottom:16px;right:16px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;
+  background:rgba(13,27,51,.86);backdrop-filter:blur(6px);color:var(--on-navy);border-radius:12px;padding:11px 14px;font-size:14px}
+.photo-tag b{font-family:var(--display);font-weight:700}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:minmax(0,1fr);gap:28px;padding-block:20px 44px}
+  .hero-photo{max-width:440px}
+  .hero-photo img{aspect-ratio:16/10;object-position:center 62%;border-radius:16px}
+  .photo-tag{left:10px;right:auto;bottom:10px;padding:7px 11px;font-size:12.5px;border-radius:9px}
+  .photo-tag span + span{display:none}
+}
+@media (max-width:540px){
+  .hero-photo img{aspect-ratio:2/1;max-height:200px}
+}
+
+/* sections */
+.section{padding-block:80px}
+.section + .section{padding-top:0}
+.eyebrow{font:600 13px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--green-ink);margin-bottom:14px}
+.head{max-width:680px;margin-bottom:40px}
+.head h2{font-size:clamp(28px,3.8vw,40px);font-weight:700}
+.head p{margin-top:14px;color:var(--fg-2)}
+@media (max-width:700px){.section{padding-block:56px}}
+
+/* what we do */
+.what{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mosaic figure{margin:0;position:relative;border-radius:var(--radius);overflow:hidden;min-width:0}
+.mosaic img{display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:3/4}
+.mosaic .wide{grid-column:span 2}
+.mosaic .wide img{aspect-ratio:16/8}
+.mosaic figcaption{position:absolute;left:10px;bottom:10px;font:600 12.5px/1 var(--body);background:rgba(13,27,51,.85);color:#fff;padding:7px 10px;border-radius:999px}
+@media (max-width:860px){.what{grid-template-columns:1fr}}
+
+.tasks{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.task{display:grid;grid-template-columns:112px 1fr;gap:16px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.task > div{min-width:0}
+.chip{display:inline-flex;align-items:center;justify-content:center;gap:6px;font:600 14px/1 var(--body);padding:8px 12px;border-radius:999px;white-space:nowrap}
+.chip svg{width:15px;height:15px;flex:none}
+.c-swap{color:var(--chip-swap);background:var(--chip-swap-bg)}
+.c-retrieve{color:var(--chip-retrieve);background:var(--chip-retrieve-bg)}
+.c-move{color:var(--chip-move);background:var(--chip-move-bg)}
+.c-deploy{color:var(--chip-deploy);background:var(--chip-deploy-bg)}
+.c-tidy{color:var(--chip-tidy);background:var(--chip-tidy-bg)}
+.c-service{color:var(--chip-service);background:var(--chip-service-bg)}
+.task h3{font:600 16.5px/1.35 var(--body);letter-spacing:0}
+.task p{font-size:15px;color:var(--fg-2);margin-top:3px}
+.task .needs{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2)}
+@media (max-width:480px){.task{grid-template-columns:1fr;gap:10px}.task .chip{justify-self:start}}
+
+/* vehicles */
+.vehicles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.vehicle{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;gap:12px}
+.vehicle .ic{width:64px;height:64px;border-radius:16px;background:var(--navy);display:grid;place-items:center}
+.vehicle .ic svg{width:38px;height:38px}
+.vehicle h3{font-size:22px;font-weight:700}
+.vehicle p{color:var(--fg-2);font-size:15.5px}
+.vehicle .can{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+.vehicle .can .chip{font-size:13px;padding:7px 10px}
+.vehicle .need{font-size:13.5px;color:var(--fg-2);border-top:1px dashed var(--line);padding-top:12px}
+@media (max-width:860px){.vehicles{grid-template-columns:1fr}}
+
+/* offer */
+.section.offer{background:var(--navy);color:var(--on-navy);padding-block:0}
+.offer .eyebrow{color:var(--hivis)}
+.offer .head p{color:var(--on-navy-2)}
+.perks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);overflow:hidden}
+.perk{background:var(--navy);padding:28px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.perk svg{width:30px;height:30px;color:var(--green);margin-bottom:6px}
+.perk.hl svg{color:var(--hivis)}
+.perk h3{font-size:19px;font-weight:700}
+.perk p{color:var(--on-navy-2);font-size:15.5px}
+@media (max-width:860px){.perks{grid-template-columns:1fr 1fr}}
+@media (max-width:540px){.perks{grid-template-columns:1fr}}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;counter-reset:s;margin:0;padding:0;list-style:none}
+.step{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px 24px 24px 24px;min-width:0}
+.step::before{counter-increment:s;content:counter(s);font-family:var(--display);font-weight:800;font-size:15px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:var(--navy);margin-bottom:14px}
+.step h3{font-size:18px;font-weight:700}
+.step p{margin-top:6px;color:var(--fg-2);font-size:15.5px}
+.step .where{margin-top:10px;font-size:14px;font-weight:600;color:var(--green-ink)}
+@media (max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:540px){.steps{grid-template-columns:1fr}}
+
+/* meet */
+.meet{display:grid;grid-template-columns:1.1fr .9fr;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.meet-info{padding:36px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.meet-info h2{font-size:clamp(26px,3.4vw,34px);font-weight:700}
+.addr{font-family:var(--display);font-weight:600;font-size:clamp(19px,2.4vw,23px);line-height:1.35}
+.when{display:flex;flex-wrap:wrap;gap:10px}
+.when span{display:inline-flex;align-items:center;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-weight:600;font-size:15px}
+.when svg{width:18px;height:18px;color:var(--green-ink)}
+.meet-info .btn{align-self:flex-start;background:var(--navy);color:#fff}
+:root[data-theme="dark"] .meet-info .btn{background:var(--green);color:var(--navy)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .meet-info .btn{background:var(--green);color:var(--navy)}}
+.meet-info .small{font-size:14.5px;color:var(--fg-2)}
+.meet-art{background:var(--navy);position:relative;min-height:260px;display:grid;place-items:center;padding:28px}
+.meet-art svg{width:100%;max-width:340px;height:auto}
+@media (max-width:860px){.meet{grid-template-columns:1fr}.meet-art{min-height:200px}}
+
+/* requirements + faq */
+.two{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.reqs{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.reqs li{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;font-size:16px}
+.reqs li > span{min-width:0}
+.reqs svg{width:24px;height:24px;color:var(--green-ink);margin-top:1px}
+.reqs small{display:block;color:var(--fg-2);font-size:14.5px}
+.faq details{border-bottom:1px solid var(--line);padding-block:4px}
+.faq details:first-of-type{border-top:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;padding-block:16px;font-weight:600;font-size:16.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:600 24px/1 var(--display);color:var(--green-ink);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding-bottom:18px;color:var(--fg-2);max-width:62ch}
+@media (max-width:860px){.two{grid-template-columns:1fr;gap:40px}}
+
+/* apply */
+.apply{background:var(--surface);border:1px solid var(--line);border-radius:20px;display:grid;grid-template-columns:.85fr 1.15fr;overflow:hidden}
+.apply-side{background:var(--navy);color:var(--on-navy);padding:36px;display:flex;flex-direction:column;gap:14px}
+.apply-side h2{font-size:clamp(28px,3.6vw,38px);font-weight:800}
+.apply-side p{color:var(--on-navy-2)}
+.apply-side .next{margin-top:auto;font-size:14.5px;color:var(--on-navy-2);border-top:1px solid rgba(255,255,255,.14);padding-top:16px}
+form{padding:32px 36px;display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;min-width:0}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+label,.legend{font-size:14px;font-weight:600}
+input,select{font:16px/1.3 var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 13px;width:100%;min-width:0}
+input:focus,select:focus{outline:2px solid var(--green);outline-offset:1px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.pills label{display:inline-flex;align-items:center;gap:7px;font-weight:500;font-size:15px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:9px 14px;cursor:pointer}
+.pills input{width:auto;accent-color:var(--green-ink);margin:0}
+.consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--fg-2)}
+.consent input{width:auto;margin-top:3px;accent-color:var(--green-ink)}
+.student-note{font-size:13.5px;color:var(--fg-2)}
+form .btn{justify-self:start}
+.done{grid-column:1/-1;background:var(--chip-move-bg);border:1px solid var(--line);border-radius:12px;padding:18px;font-size:15.5px}
+.done b{display:block;font-family:var(--display);font-size:18px;margin-bottom:4px}
+.done span{display:block}
+.fail{grid-column:1/-1;background:var(--chip-retrieve-bg);color:var(--fg);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:500}
+.done-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.btn-line{background:transparent;border-color:var(--line);color:var(--fg)}
+.done .link{display:block;margin-top:12px;font-size:12.5px;word-break:break-all;color:var(--fg-2);user-select:all}
+form input:disabled,form select:disabled{opacity:.6}
+@media (max-width:860px){.apply{grid-template-columns:1fr}}
+@media (max-width:560px){form{grid-template-columns:1fr;padding:24px 20px}.apply-side{padding:28px 20px}}
+
+/* footer */
+footer{background:var(--navy);color:var(--on-navy-2);font-size:14.5px}
+.foot{display:flex;flex-wrap:wrap;gap:28px 56px;justify-content:space-between;padding-block:48px 28px}
+.foot nav{display:flex;flex-direction:column;gap:8px}
+.foot nav a{text-decoration:none}
+.foot nav a:hover{color:var(--on-navy)}
+.foot .legal{max-width:440px;line-height:1.7}
+.foot .legal strong{color:var(--on-navy);font-weight:600}
+.copy{border-top:1px solid var(--navy-2);padding-block:20px 36px;font-size:13px;color:#7F8BA3}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="lockup" href="#top" aria-label="Juicers Logistics home">
+        <svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="28" fill="#5FC24A"/><polygon points="31,12 17,31 26,31 24,44 39,24 29,24" fill="#0D1B33"/></svg>
+        <span><b>JUICERS</b><small>Logistics</small></span>
+      </a>
+      <div class="navlinks">
+        <a href="#what">What we do</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#join">How to join</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary" href="#apply">Apply</a>
+      </div>
+    </nav>
+
+    <div class="hero-grid">
+      <div>
+        <div class="kicker"><i></i>Now hiring riders in Sydney</div>
+        <h1>We keep Sydney's Lime e-bikes <em>charged, fixed and ready.</em></h1>
+        <p class="lede">Juicers Logistics services <strong>Lime e-bikes</strong> across Sydney. Our riders swap batteries, tighten brakes, tidy bike spots and move bikes to where people need them. Join us with a <strong>van, a bicycle or a motorbike</strong>.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#apply">Apply now
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#join">How it works</a>
+        </div>
+        <ul class="facts" aria-label="Key facts">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Paid to your ABN</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Hi-vis safety gear supplied</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Flexible hours, 7 days</li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="img/hero-bike.jpg" width="1348" height="1148" alt="A rider on a green Lime e-bike">
+        <div class="photo-tag"><span><b>Lime e-bikes</b> · Sydney</span><span>Swap · Service · Tidy · Move</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="band" aria-hidden="true"></div>
+</header>
+
+<main>
+  <section class="section" id="what" aria-labelledby="what-h">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">What we do</p>
+        <h2 id="what-h">Six jobs that keep the fleet on the road</h2>
+        <p>Every task comes through the Lime operations app. You reserve it, go to the bike, do the job and mark it done. These are the six tasks you learn with us.</p>
+      </div>
+      <div class="what">
+        <ul class="tasks">
+          <li class="task">
+            <span class="chip c-swap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="16" height="10" rx="2"/><path d="M22 11v2M12 9l-2 3h3l-2 3"/></svg>Swap</span>
+            <div><h3>Charged batteries in, empty ones out</h3><p>Take charged batteries from our charging rack and swap them into bikes that are running low.</p><span class="needs">Bicycle · van</span></div>
+          </li>
+          <li class="task">
+            <span class="chip c-service"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>Service</span>
+            <div><h3>Tighten the brakes</h3><p>Small on-street fixes with a screwdriver, so every rider gets a bike that stops safely.</p><span class="needs">Any vehicle</span></div>
+          </li>
+          <li class="task">
+            <span class="chip c-tidy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 3 9 13M5 15l4-2 2 2-2 4H3z"/></svg>Tidy</span>
+            <div><h3>Same bikes, better street</h3><p>Stand fallen bikes up and line them up in their spot so footpaths stay clear.</p><span class="needs">Any vehicle</span></div>
+          </li>
+          <li class="task">
+            <span class="chip c-move"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>Move</span>
+            <div><h3>Right bike, wrong place</h3><p>Take bikes from where they pile up to the spots where people are looking for one.</p><span class="needs">Van</span></div>
+          </li>
+          <li class="task">
+            <span class="chip c-retrieve"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7v9H3z"/><path d="M12 10v7M9 14l3 3 3-3"/></svg>Retrieve</span>
+            <div><h3>Broken bikes go back to the warehouse</h3><p>Collect bikes that can't be ridden and bring them in for repair.</p><span class="needs">Van</span></div>
+          </li>
+          <li class="task">
+            <span class="chip c-deploy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7v9H3z"/><path d="M12 17v-7M9 13l3-3 3 3"/></svg>Deploy</span>
+            <div><h3>From the warehouse to the street</h3><p>Load ready bikes from the warehouse and put them out where they're needed.</p><span class="needs">Van</span></div>
+          </li>
+        </ul>
+        <div class="mosaic">
+          <figure><img src="img/battery.jpg" width="675" height="900" alt="A Lime e-bike battery fitted to the bike frame" loading="lazy"><figcaption>Swap</figcaption></figure>
+          <figure><img src="img/service.jpg" width="675" height="900" alt="A screwdriver tightening the brake on a Lime e-bike's front hub" loading="lazy"><figcaption>Service</figcaption></figure>
+          <figure class="wide"><img src="img/bike-spot.jpg" width="1000" height="750" alt="A Lime e-bike parked in a bike spot on a Sydney footpath" loading="lazy"><figcaption>Tidy</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="vehicles" aria-labelledby="veh-h">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Work your way</p>
+        <h2 id="veh-h">Van, bicycle or motorbike</h2>
+        <p>Tell us what you ride when you apply. We match your tasks to your vehicle.</p>
+      </div>
+      <div class="vehicles">
+        <article class="vehicle">
+          <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="#5FC24A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 32V14a2 2 0 0 1 2-2h24l8 8h4a2 2 0 0 1 2 2v10h-4"/><path d="M30 12v10h12"/><path d="M18 32h12"/><circle cx="13" cy="33" r="4"/><circle cx="35" cy="33" r="4"/></svg></div>
+          <h3>Van</h3>
+          <p>Carry battery stock and whole bikes. Van riders can take every task type, including moving bikes around the city.</p>
+          <div class="can"><span class="chip c-swap">Swap</span><span class="chip c-move">Move</span><span class="chip c-retrieve">Retrieve</span><span class="chip c-deploy">Deploy</span><span class="chip c-tidy">Tidy</span><span class="chip c-service">Service</span></div>
+          <p class="need">Your own van and a full driver licence.</p>
+        </article>
+        <article class="vehicle">
+          <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="#5FC24A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="31" r="8"/><circle cx="37" cy="31" r="8"/><path d="M11 31l8-14h12l6 14M19 17l6 14h-3M28 11h5l-2 6"/></svg></div>
+          <h3>Bicycle</h3>
+          <p>Get between bikes quickly in the CBD and inner suburbs, where parking a vehicle is hard.</p>
+          <div class="can"><span class="chip c-swap">Swap</span><span class="chip c-tidy">Tidy</span><span class="chip c-service">Service</span></div>
+          <p class="need">Your own bicycle or e-bike and a helmet.</p>
+        </article>
+        <article class="vehicle">
+          <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="#5FC24A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="32" r="7"/><circle cx="38" cy="32" r="7"/><path d="M10 32h9l6-9h8l5 9M25 23l-4-6h-6M33 23l-3-8h5"/></svg></div>
+          <h3>Motorbike</h3>
+          <p>Cover more ground in less time with Tidy and Service tasks across a wider area of Sydney.</p>
+          <div class="can"><span class="chip c-tidy">Tidy</span><span class="chip c-service">Service</span></div>
+          <p class="need">Your own motorbike, a valid licence and registration.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section offer" aria-labelledby="offer-h">
+    <div class="wrap" style="padding-block:72px">
+      <div class="head">
+        <p class="eyebrow">What you get</p>
+        <h2 id="offer-h">Flexible work, with the gear and training covered</h2>
+        <p>You choose when you work. We give you the training, the safety gear and the app to run your day.</p>
+      </div>
+      <div class="perks">
+        <div class="perk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg>
+          <h3>Paid to your ABN</h3>
+          <p>You work as an independent contractor and we pay you for the tasks you complete.</p>
+        </div>
+        <div class="perk hl">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3 4 6v15h16V6l-4-3-4 3z"/><path d="M4 12h16M4 16h16"/></svg>
+          <h3>Hi-vis safety gear supplied</h3>
+          <p>We give you a high-visibility vest so drivers and pedestrians see you on the street, day and night.</p>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <h3>Flexible hours, 7 days</h3>
+          <p>Tell us when you can work. Early mornings, afternoons and weekends are all open.</p>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>
+          <h3>Students welcome</h3>
+          <p>If you study, you can work with us with a minimum of 20 hours a week.</p>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M10 9l2 2 3-3"/></svg>
+          <h3>Training online and in person</h3>
+          <p>A short online course in English or Spanish, then a hands-on session with our team.</p>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          <h3>The Juicers app</h3>
+          <p>See your shifts, log your battery runs and get reminders on WhatsApp before each run.</p>
+        </div>
+      </div>
+    </div>
+    <div class="band" aria-hidden="true"></div>
+  </section>
+
+  <section class="section" id="join" aria-labelledby="join-h" style="padding-top:80px">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">How to join</p>
+        <h2 id="join-h">From application to your first shift</h2>
+        <p>Most of it happens on your phone. You visit us once, and we start you off alongside an experienced rider.</p>
+      </div>
+      <ol class="steps">
+        <li class="step"><h3>Apply online</h3><p>Answer a few quick questions about your work rights, vehicle and availability. It takes about two minutes.</p></li>
+        <li class="step"><h3>Do the online course</h3><p>Learn the six tasks with short animated lessons, in English or Spanish, and pass the final quiz.</p></li>
+        <li class="step"><h3>Upload your documents</h3><p>Passport, visa or VEVO, proof of address and a photo. We check them before we meet you.</p></li>
+        <li class="step"><h3>Book your session</h3><p>Pick a Monday or Tuesday that suits you. Sessions start at 11:00 am.</p><p class="where">Lucky Bikes, Ultimo</p></li>
+        <li class="step"><h3>Meet us in person</h3><p>We set up your Juicers app account, give you your hi-vis gear and practise the tasks on real bikes.</p></li>
+        <li class="step"><h3>Start working</h3><p>Your first shift is alongside an experienced rider. After that you add your ABN and bank details and you're on the team.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="meet" aria-labelledby="meet-h">
+    <div class="wrap">
+      <div class="meet">
+        <div class="meet-info">
+          <p class="eyebrow" style="margin:0">Where we meet</p>
+          <h2 id="meet-h">Lucky Bikes, Ultimo</h2>
+          <p class="addr">Unit 328/310 Wattle St<br>Ultimo NSW 2007</p>
+          <div class="when">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Mondays and Tuesdays</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>11:00 am</span>
+          </div>
+          <p class="small">Sessions are by booking only. You get the booking link once your documents are approved.</p>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Unit+328%2F310+Wattle+St%2C+Ultimo+NSW+2007" target="_blank" rel="noopener">Open in Google Maps
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+        <div class="meet-art" aria-hidden="true">
+          <svg viewBox="0 0 340 240">
+            <rect x="0" y="0" width="340" height="240" fill="#0D1B33"/>
+            <g stroke="#24344F" stroke-width="14" stroke-linecap="round">
+              <path d="M-10 70 L350 50"/><path d="M-10 175 L350 160"/>
+              <path d="M95 -10 L80 250"/><path d="M250 -10 L262 250"/>
+            </g>
+            <path d="M170 -10 L176 250" stroke="#33476A" stroke-width="20" stroke-linecap="round"/>
+            <text x="186" y="34" fill="#8B98B2" font-family="Inter, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">WATTLE ST</text>
+            <text x="12" y="44" fill="#5E6C88" font-family="Inter, sans-serif" font-size="11" letter-spacing="1">ULTIMO</text>
+            <circle cx="174" cy="118" r="34" fill="#5FC24A" opacity=".18"/>
+            <path d="M174 78c-15 0-26 11-26 25 0 19 26 43 26 43s26-24 26-43c0-14-11-25-26-25z" fill="#5FC24A"/>
+            <circle cx="174" cy="103" r="9" fill="#0D1B33"/>
+            <rect x="200" y="132" width="122" height="44" rx="10" fill="#D4E600"/>
+            <text x="212" y="151" fill="#0D1B33" font-family="Sora, Inter, sans-serif" font-size="13" font-weight="700">Lucky Bikes</text>
+            <text x="212" y="167" fill="#0D1B33" font-family="Inter, sans-serif" font-size="11.5">Mon &amp; Tue · 11:00</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="req-h">
+    <div class="wrap two">
+      <div>
+        <p class="eyebrow">Requirements</p>
+        <h2 id="req-h" style="font-size:clamp(26px,3.4vw,34px);margin-bottom:24px">What you need</h2>
+        <ul class="reqs">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Australian work rights<small>Citizen, resident, working holiday or student visa.</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>An ABN<small>No ABN yet? Apply for free at abr.gov.au while you do the course.</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Your own van, bicycle or motorbike<small>With a valid licence for a van or motorbike.</small></span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>A smartphone with mobile data</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>18 or older, living in Sydney</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Students: at least 20 hours a week</span></li>
+        </ul>
+      </div>
+      <div class="faq">
+        <p class="eyebrow">Questions</p>
+        <h2 style="font-size:clamp(26px,3.4vw,34px);margin-bottom:20px">Frequently asked</h2>
+        <details><summary>Do I need experience?</summary><p>No. You learn every task in our online course, then practise them with us in person before your first shift.</p></details>
+        <details><summary>How do I get paid?</summary><p>You work as an independent contractor and we pay you to your ABN for the tasks you complete.</p></details>
+        <details><summary>I don't have an ABN. Can I still apply?</summary><p>Yes. Applying for an ABN is free on the Australian Business Register (abr.gov.au). Start it while you do the course so it's ready by your first shift.</p></details>
+        <details><summary>Can students apply?</summary><p>Yes. Students need to commit to at least 20 hours a week.</p></details>
+        <details><summary>What vehicle do I need?</summary><p>Your own van, bicycle or motorbike. Tidy and Service work with all three. Swap needs a bicycle or a van. Move, Retrieve and Deploy carry whole bikes, so they need a van.</p></details>
+        <details><summary>Is the course in English?</summary><p>You can take it in English or Spanish. The Lime operations app is in English, so we show you every button by its English name.</p></details>
+        <details><summary>What do I get at the in-person session?</summary><p>Your Juicers app account, your hi-vis safety gear and hands-on practice with the tasks on real bikes.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="apply" aria-labelledby="apply-h">
+    <div class="wrap">
+      <div class="apply">
+        <div class="apply-side">
+          <p class="eyebrow" style="color:var(--hivis);margin:0">Apply</p>
+          <h2 id="apply-h">Ride with Juicers</h2>
+          <p>Two minutes to apply. If you meet the requirements, your online course opens straight away.</p>
+          <p class="next">After the course you upload your documents and book a session at Lucky Bikes, Ultimo.</p>
+        </div>
+        <form id="apply-form" novalidate>
+          <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><label for="f-website">Website</label><input id="f-website" name="website" tabindex="-1" autocomplete="off"></div>
+          <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required placeholder="Alex Rivera"></div>
+          <div class="field"><label for="f-phone">Mobile (WhatsApp)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required placeholder="04xx xxx xxx"></div>
+          <div class="field"><label for="f-visa">Work rights</label>
+            <select id="f-visa" name="visa" required>
+              <option value="">Choose one</option>
+              <option value="citizen">Citizen or permanent resident</option>
+              <option value="working_holiday">Working holiday visa</option>
+              <option value="student">Student visa</option>
+              <option value="other">Other visa with work rights</option>
+              <option value="none">No work rights yet</option>
+            </select>
+          </div>
+          <div class="field"><label for="f-abn">Do you have an ABN?</label>
+            <select id="f-abn" name="abn" required>
+              <option value="">Choose one</option>
+              <option value="yes">Yes</option>
+              <option value="applying">I'm applying</option>
+              <option value="no">Not yet</option>
+            </select>
+          </div>
+          <p class="student-note field full" id="student-note" hidden>Students work with us at least 20 hours a week.</p>
+          <fieldset class="field full">
+            <legend class="legend">What will you ride?</legend>
+            <div class="pills">
+              <label><input type="checkbox" id="v-van" name="vehicle" value="van"> Van</label>
+              <label><input type="checkbox" id="v-bike" name="vehicle" value="bicycle"> Bicycle</label>
+              <label><input type="checkbox" id="v-moto" name="vehicle" value="motorbike"> Motorbike</label>
+            </div>
+          </fieldset>
+          <div class="field"><label for="f-suburb">Suburb you live in</label><input id="f-suburb" name="suburb" placeholder="Surry Hills"></div>
+          <div class="field"><label for="f-hours">Hours per week</label>
+            <select id="f-hours" name="hours">
+              <option value="">Choose one</option>
+              <option value="20-29">20–29</option>
+              <option value="30-39">30–39</option>
+              <option value="40+">40+</option>
+            </select>
+          </div>
+          <label class="consent field full"><input type="checkbox" id="f-consent" required> I'm 18 or older and agree that Juicers Logistics can contact me on WhatsApp about this application.</label>
+          <div class="field full" id="form-msg" role="status" aria-live="polite"></div>
+          <button class="btn btn-primary" type="submit">Send application</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="band" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <a class="lockup" href="#top" aria-label="Juicers Logistics">
+          <svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="28" fill="#5FC24A"/><polygon points="31,12 17,31 26,31 24,44 39,24 29,24" fill="#0D1B33"/></svg>
+          <span><b>JUICERS</b><small>Logistics</small></span>
+        </a>
+        <p class="legal">Juicers Logistics is operated by <strong>7 Everything or Nothing Pty Ltd</strong><br>ABN 23 691 134 826 · New South Wales, Australia</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#what">What we do</a>
+        <a href="#join">How to join</a>
+        <a href="#meet">Where we meet</a>
+        <a href="#apply">Apply</a>
+        <a href="https://santiagoarroyo6.github.io/juicers/app/" target="_blank" rel="noopener">Rider login</a>
+      </nav>
+    </div>
+    <p class="copy">© 2026 7 Everything or Nothing Pty Ltd. Juicers Logistics provides field services for Lime e-bikes in Sydney. Lime is a trademark of its owner.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var API='https://vcrrqbnugnlbppeygmhm.supabase.co/functions/v1/course';
+  var APP='https://santiagoarroyo6.github.io/juicers/app/#/course?t=';
+  var form=document.getElementById('apply-form');
+  var visa=document.getElementById('f-visa');
+  var note=document.getElementById('student-note');
+  var msg=document.getElementById('form-msg');
+  var btn=form.querySelector('button[type="submit"]');
+  var src='web';
+  try{ var q=new URLSearchParams(location.search).get('src'); if(q && /^[a-z0-9][a-z0-9_-]{0,39}$/i.test(q)) src=q.toLowerCase(); }catch(e){}
+  visa.addEventListener('change',function(){ note.hidden = visa.value!=='student'; });
+  function show(kind,title,text){
+    msg.innerHTML='';
+    var d=document.createElement('div');
+    d.className=kind==='error'?'fail':'done';
+    if(title){ var b=document.createElement('b'); b.textContent=title; d.appendChild(b); }
+    if(text){ var t=document.createElement('span'); t.textContent=text; d.appendChild(t); }
+    msg.appendChild(d); return d;
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(btn.disabled) return;
+    var missing=[];
+    if(!document.getElementById('f-name').value.trim()) missing.push('your name');
+    if(!document.getElementById('f-phone').value.trim()) missing.push('your mobile');
+    if(!visa.value) missing.push('your work rights');
+    if(!document.getElementById('f-abn').value) missing.push('your ABN status');
+    var vehicles=[].map.call(form.querySelectorAll('input[name="vehicle"]:checked'),function(i){return i.value;});
+    if(!vehicles.length) missing.push('a vehicle');
+    if(!document.getElementById('f-consent').checked) missing.push('the consent box');
+    if(missing.length){ show('error','','Please add '+missing.join(', ')+'.'); return; }
+    if(visa.value==='none'){ show('done','You need work rights first','To work with us you need the right to work in Australia. Come back once you have it and we’ll be glad to hear from you.'); return; }
+    btn.disabled=true; btn.textContent='Sending…';
+    fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      action:'apply', source:src,
+      name:document.getElementById('f-name').value, phone:document.getElementById('f-phone').value,
+      visa:visa.value, abn:document.getElementById('f-abn').value, vehicles:vehicles,
+      suburb:document.getElementById('f-suburb').value, hours:document.getElementById('f-hours').value,
+      consent:document.getElementById('f-consent').checked, website:document.getElementById('f-website').value
+    })}).then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+    .then(function(res){
+      if(!res.ok){ show('error','',res.d.error||'Something went wrong. Please try again.'); return; }
+      if(!res.d.token){ show('done','Thanks, application received','We’ll be in touch on WhatsApp.'); return; }
+      var link=APP+res.d.token;
+      form.querySelectorAll('input,select').forEach(function(el){ el.disabled=true; });
+      btn.hidden=true;
+      var box=show('done','You’re in! Your course is ready','This is your personal link. Save it: you’ll use it again to upload your documents after the course.');
+      var row=document.createElement('div'); row.className='done-actions';
+      var go=document.createElement('a'); go.className='btn btn-primary'; go.href=link; go.textContent='Start the course';
+      var cp=document.createElement('button'); cp.type='button'; cp.className='btn btn-line'; cp.textContent='Copy my link';
+      cp.addEventListener('click',function(){
+        var done=function(){ cp.textContent='Copied'; };
+        var pick=function(){ var r=document.createRange(); r.selectNodeContents(code); var s=getSelection(); s.removeAllRanges(); s.addRange(r); cp.textContent='Selected, copy it'; };
+        if(navigator.clipboard){ navigator.clipboard.writeText(link).then(done,pick); } else { pick(); }
+      });
+      var code=document.createElement('code'); code.className='link'; code.textContent=link;
+      row.appendChild(go); row.appendChild(cp); box.appendChild(row); box.appendChild(code);
+    })
+    .catch(function(){ show('error','','We couldn’t send your application. Check your connection and try again.'); })
+    .then(function(){ if(!btn.hidden){ btn.disabled=false; btn.textContent='Send application'; } });
+  });
+})();
+</script>
+</body>
+</html>
